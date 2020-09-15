@@ -1,7 +1,7 @@
 link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
 # import time
 
-def test_language(browser):
+def test_check_button_exists_for_different_interface_languages(browser):
     browser.get(link)
     # to check the correctness of work
     # time.sleep(30)
