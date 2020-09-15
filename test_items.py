@@ -3,7 +3,7 @@ link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
 
 def test_language(browser):
     browser.get(link)
-	# to check the correctness of work
+    # to check the correctness of work
     # time.sleep(30)
     button = None
 	
